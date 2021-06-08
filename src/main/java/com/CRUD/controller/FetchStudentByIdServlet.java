@@ -8,6 +8,12 @@ import javax.servlet.annotation.*;
 import java.io.IOException;
 import java.util.Map;
 
+/**
+ * update修改的业务
+ * 查询student根据id
+ * 接受前台的parameter stuid
+ * 根据id查询student的信息，并回显到/view/studentUpdate.jsp页面中
+ */
 @WebServlet(name = "FetchStudentByIdServlet", value = "/usr/fetchStudentById")
 public class FetchStudentByIdServlet extends HttpServlet {
     @Override

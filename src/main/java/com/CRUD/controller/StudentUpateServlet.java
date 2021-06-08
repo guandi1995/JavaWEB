@@ -9,6 +9,9 @@ import javax.servlet.http.*;
 import javax.servlet.annotation.*;
 import java.io.IOException;
 
+/**
+ * update student
+ */
 @WebServlet(name = "StudentUpateServlet", value = "/usr/updateStudent")
 public class StudentUpateServlet extends HttpServlet {
     @Override

@@ -8,6 +8,10 @@ import javax.servlet.http.*;
 import javax.servlet.annotation.*;
 import java.io.IOException;
 
+/**
+ * delete student by id
+ * 删除student的row后，转发到/usr/fetchStudent刷新studentlist
+ */
 @WebServlet(name = "StudentDeleteServlet", value = "/usr/deleteStudent")
 public class StudentDeleteServlet extends HttpServlet {
     @Override

@@ -9,6 +9,9 @@ import java.io.IOException;
 import java.util.List;
 import java.util.Map;
 
+/**
+ * 查询所有student信息
+ */
 @WebServlet(name = "StudentServlet", value = "/usr/fetchStudent")
 public class StudentFetchServlet extends HttpServlet {
     @Override

@@ -9,6 +9,11 @@ import javax.servlet.http.*;
 import javax.servlet.annotation.*;
 import java.io.IOException;
 
+/**
+ * insert student by Student entity
+ * 接受前台参数，添加student信息
+ * 并转发到/usr/fetchStudent，重新刷新
+ */
 @WebServlet(name = "StudentInsertServlet", value = "/usr/insertStudent")
 public class StudentInsertServlet extends HttpServlet {
     @Override
