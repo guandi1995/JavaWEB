@@ -13,8 +13,13 @@
 </head>
 <body>
 
+<%--session--%>
+welcome, ${sessionScope.accountInfo}<br>
+<a href="/WEB03/usr/logout">logout</a><br>
+
 <a href="/WEB03/view/studentInsert.jsp">Insert Student</a>
-${requestScope.message.message}
+${requestScope.message.message}<br>
+
 <table style="border: 1px;width: 100%">
     <tr>
         <td>id</td>
